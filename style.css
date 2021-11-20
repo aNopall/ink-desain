@@ -516,8 +516,8 @@ form .signup-link a:hover {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-    flex-wrap: wrap;
-    margin: auto auto;
+    	flex-wrap: wrap;
+    	margin: auto auto;
 }
 
 .s-box {
@@ -532,12 +532,12 @@ form .signup-link a:hover {
 	box-sizing: border-box;
 	margin: 30px;
 	position: relative;
-    box-shadow: 2px 2px 30px rgba(0,0,0,0.08);
+    	box-shadow: 2px 2px 30px rgba(0,0,0,0.08);
 }
 
 .s-box i {
-    color: #0045AD;
-    font-size: 50px;
+    	color: #0045AD;
+    	font-size: 50px;
 	height: 75px;
 }
 
@@ -563,8 +563,9 @@ form .signup-link a:hover {
 	justify-content: center;
 	align-items: center;
 	color:#576975;
+	font-weigh: bold;
 	margin-top:10px; 
-    transition-duration: 0.7s;
+    	transition-duration: 0.7s;
 }
 
 .bar {
@@ -581,6 +582,7 @@ form .signup-link a:hover {
 .s-btn:hover {
 	background-color:#0045AD;
 	color:#FFFFFF;
+	font-weigh: bold;
 }
 
 .s-box:hover .bar {

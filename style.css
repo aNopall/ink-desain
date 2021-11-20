@@ -554,13 +554,13 @@ form .signup-link a:hover {
 	height: 40px;
 	border-radius: 20px;
 	border: 2px solid #0045AD;
-    font-weight: bold;
+    	font-weight: bold;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	color:#576975;
 	margin-top:10px; 
-    transition-duration: 0.7s;
+    	transition-duration: 0.7s;
 }
 
 .bar {
@@ -577,7 +577,7 @@ form .signup-link a:hover {
 .s-btn:hover {
 	background-color:#0045AD;
 	color:#FFFFFF;
-    font-weight: bold;
+    	font-weight: bold;
 }
 
 .s-box:hover .bar {

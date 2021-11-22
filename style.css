@@ -329,7 +329,7 @@ input[type="checkbox"] {
     width: 100%;
     padding-left: 10px;
     font-size: 17px;
-    border: 1px solid silver;
+    border: 1px solid #ececec;
 }
   
 .data input:focus {

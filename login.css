@@ -82,6 +82,7 @@ input {
 	letter-spacing: 1px;
 	text-transform: uppercase;
   	transition-duration: 0.7s;
+	cursor: pointer;
 }
 
 .sign-in-container button:hover {

@@ -131,7 +131,7 @@ nav ul li a:hover::before {
     display: none;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 800px) {
     .popup {
         margin: 0 20px;
     }
@@ -235,7 +235,7 @@ nav ul li a:hover::before {
     background-color: #00398f;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 800px) {
     .home {
         padding: 100px 0 100px 0;
     }
@@ -473,7 +473,7 @@ nav ul li a:hover::before {
 	display: block;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 800px) {
     .service {
         margin-top: 10px;
     }
@@ -645,7 +645,7 @@ textarea {
     background: #00398f;
 }
   
-@media (max-width: 900px) {
+@media (max-width: 800px) {
     .contact h1 {
         margin-top: -150px;
     }

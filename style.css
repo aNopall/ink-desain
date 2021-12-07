@@ -134,6 +134,9 @@ nav ul li a:hover::before {
 }
 
 @media (max-width: 1024px) {
+    .logo {
+        margin-left: -30px;
+    }
     ul {
         display: none;
     }

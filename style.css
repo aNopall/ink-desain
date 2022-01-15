@@ -1,0 +1,282 @@
+body {
+    font-family: Montserrat,Helvetica,sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.title {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.title::after {
+    content: '';
+    border-bottom: 2px solid #999;
+    width: 70px;
+    display: block;
+    margin: 20px auto;
+    left: 0;
+}
+
+/* Navbar Start */
+
+.navbar .navbar-nav .nav-link {
+    font-family: 'Work Sans';
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    transition-duration: 0.4s;
+}
+
+.navbar .navbar-nav .nav-link:hover{
+    color: rgb(216, 216, 216);
+}
+
+.navbar .navbar-nav {
+    margin-top: -0.5rem;
+}
+
+.navbar .navbar-toggler-icon {
+    background-image: url(img/hamburger.png);
+    width: 36px;
+    height: 36px;
+}
+
+.navbar-light .navbar-toggler {
+    color: transparent;
+    border-color: transparent;
+}
+
+/* Navbar End */
+
+/* Jumbotron Start */
+
+.home {
+    height: 720px;
+    background-image: url(img/bg-main.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+
+.home p {
+    margin: 1rem 0;
+}
+
+.home .mobile {
+    display: none;
+}
+
+.home button {
+    width: 266px;
+    height: 51px;
+    border: none;
+    background-color: #00398f;
+    color: white;
+    border-radius: 50px;
+    transition-duration: 0.7s;
+}
+
+.home button:hover {
+    background-color: #00298a;
+}
+
+/* Jumbotron End */
+
+/* Service Start */
+
+.container-service {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.service h1 {
+    padding-top: 20px;
+}
+
+.card {
+    border-radius: 20px;
+}
+
+.card-img-top {
+    width: 130px;
+    height: 130px;
+    margin: 30px auto;
+}
+
+.card h4 {
+    font-size: 20px;
+}
+
+.card p {
+    margin: 25px 0;
+    line-height: 30px;
+}
+
+.btn-service {
+    border: none;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 10px 40px;
+    background-color: #00398f;
+    border-radius: 20px;
+    color: #fff;
+    transition-duration: 0.7s;
+}
+
+.btn-service:hover {
+    color: #fff;
+    background-color: #00298a;
+}
+
+span.service-1 {
+    display: inline-block;
+    margin-top: -10px;
+}
+
+span.service-2 {
+    display: inline-block;
+    margin-top: -13px;
+}
+
+/* Service End */
+
+/* Portfolio Start */
+
+.portfolio {
+    background-color: #F6F9F9;
+}
+
+.portfolio h1 {
+    margin-top: 100px;
+    padding-top: 50px;
+}
+
+.container-portfolio {
+    display: grid;
+    max-width: 1100px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    gap: 30px;
+    padding: 15px;
+    padding-bottom: 120px;
+    margin: 0 auto;
+}
+
+.container-portfolio img {
+    width: 100%;
+    display: block;
+    transition: all 300ms ease-out;
+}
+
+.container-portfolio img:hover {
+    transform: scale(1.04);
+}
+
+/* Portfolio End */
+
+/* Order Start */
+
+
+.container-order {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+/* Order Start */
+
+/* Contact Us Start */
+
+.contact h1 {
+    margin-top: 100px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+select.form-select {
+    font-family: 'Work Sans';
+    color: #7a8489;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #ececec;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding: 20px;
+    width: 100%;
+}
+
+.form-control {
+    font-family: 'Work Sans';
+    color: #7a8489;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #ececec;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding: 20px;
+    width: 100%;
+}
+
+textarea {
+	resize: none;
+}
+
+.btn-contact {
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #00398f;
+    color: white;
+    transition-duration: 0.7s;
+}
+
+.btn-contact:hover {
+    background-color: #00398f;
+}
+
+/* Contact Us Start */
+
+/* Footer Start */
+
+.footer-subtitle {
+    color: #fff;
+}
+
+.footer-link {
+    list-style: none;
+    color: #bbb;
+}
+
+.footer-link:hover {
+    color: #bbb;
+    text-decoration: underline;
+}
+
+.form-notif {
+    font-family: 'Work Sans';
+    color: #7a8489;
+    background-color: white;
+    border-radius: 50px;
+    border: 1px solid #ececec;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding: 15px;
+    width: 80%;
+}
+
+.btn-notif {
+    background-color: #fff;
+    border-radius: 0 50px 50px 0;
+    padding: 15px;
+}
+
+/* Footer End */

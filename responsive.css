@@ -1,0 +1,81 @@
+@media only screen and (max-width: 1024px) {
+    .jumbotron {
+        margin-left: 20px;
+    }
+    .service .col {
+        max-width: 45%;
+        margin: 10px auto;
+    }
+    .form-notif {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    .container-portfolio {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    .navbar {
+        flex-direction: column;
+    }
+    .navbar .nav-item {
+        padding: 0.5em 1em;
+    }
+}
+
+@media only screen and (max-width: 428px) {
+    .navbar img {
+        width: 77px;
+        margin-left: 20px;
+    }
+    .navbar .navbar-toggler-icon {
+        margin-right: 10px;
+    }
+    a.nav-link {
+        margin-left: 10px;
+    }
+    .jumbotron {
+        margin-left: 10px;
+    }
+    .home {
+        height: 550px;
+    }
+    .home p {
+        display: none;
+    }
+    .home .mobile {
+        display: block;
+        margin: 1rem 0;
+    }
+    .container-service {
+        max-width: 90%;
+    }
+    .service .col{
+        max-width: 50%;
+        float: left;
+    }
+    .card-img-top{
+        width: 90px;
+        height: 90px;
+    }
+    .card-title {
+        display: none;
+    }
+    .btn-service {
+        font-size: 12px;
+        padding: 10px 30px;
+    }
+    .container-portfolio {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+    .order .col{
+        max-width: 50%;
+        float: left;
+    }
+    .order h4 {
+        font-size: 17px;
+    }
+}
